@@ -1,4 +1,5 @@
 // pages/account/account.js
+var app = getApp();
 Page({
 
   //form表单的事件处理函数
@@ -46,13 +47,25 @@ Page({
       points: [{
         longitude: 113.3245211,
         latitude: 23.10229
-      },{
-        longitude: 113.324550,
-        latitude: 23.099994
+      }, {
+        longitude: 113.324520,
+        latitude: 23.21229
       }],
-      color: '#f66',
-      width: 6
-    }]
+      color: '#ff6666',
+      width: 3,
+      dottedLine: true
+    }],
+    mapH: ''
   },
+
+  onLoad() {
+    // 计算窗口高度(规定屏幕宽为750rpx)
+    let winH = app.globalData.windowH;
+    let winW = app.globalData.windowW;
+    let radio = 750 / winW;
+    this.setData({
+      mapH: radio * winH + 'rpx'
+    });
+  }
 
 })
