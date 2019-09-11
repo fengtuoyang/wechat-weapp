@@ -36,7 +36,7 @@ Page({
       categoryKey: categoryKey,
       requestUrl: dataUrl
     }, () => {
-      utils.http(dataUrl, this.processDoubanData);
+      utils.http(dataUrl + '?start=0&count=12', this.processDoubanData);
     });
   },
 
@@ -74,7 +74,7 @@ Page({
     // let totalMovies = this.data.movies.concat(movies);
     this.setData({
       movies: movies,
-      totalcount: this.data.totalcount + 20
+      totalcount: this.data.totalcount + 12
     }, () => {
       wx.hideNavigationBarLoading();
       wx.stopPullDownRefresh();
@@ -83,7 +83,7 @@ Page({
 
   //movie-grid scroll-view滚动到底部触发函数
   // onScrollLower: function(event){
-  //   let nextUrl = this.data.requestUrl + '?start=' + this.data.totalcount + '&count=20';
+  //   let nextUrl = this.data.requestUrl + '?start=' + this.data.totalcount + '&count=12';
   //   utils.http(nextUrl, this.processDoubanData);
   //   wx.showNavigationBarLoading();
   // },
@@ -100,7 +100,7 @@ Page({
 
   //上拉加载
   onReachBottom: function() {
-    let nextUrl = this.data.requestUrl + '?start=' + this.data.totalcount + '&count=20';
+    let nextUrl = this.data.requestUrl + '?start=' + this.data.totalcount + '&count=12';
     utils.http(nextUrl, this.processDoubanData);
     wx.showNavigationBarLoading();
   },
