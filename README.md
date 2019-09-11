@@ -7,3 +7,5 @@
     即将上映：http://t.yushu.im/v2/movie/coming_soon
     Top250：http://t.yushu.im/v2/movie/top250
     参数start=0&count=3
+
+![预览](https://github.com/fengtuoyang/wechat-weapp-douban-film/blob/master/images/vr.png?raw=true)https://github.com/fengtuoyang/wechat-weapp-douban-film/blob/master/images/preview/1.png
