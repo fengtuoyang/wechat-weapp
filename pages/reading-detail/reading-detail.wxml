@@ -1,0 +1,21 @@
+<!--pages/reading/reading-detail/reading-detail.wxml-->
+<view class='container'>
+  <image class='head-image' src='{{isPlay ? readingDetail.music.coverImg : readingDetail.img}}'></image>
+  <image class='head-audio' src='{{isPlay ? "/images/music/music-stop.png" : "/images/music/music-start.png"}}' catchtap='playOrPause'></image>
+  <view class='author-date'>
+    <image class='avatar' src='{{readingDetail.authorImg}}'></image>
+    <text class='author'>{{readingDetail.author}}</text>
+    <text class='const-text'>发表于</text>
+    <text class='date'>{{readingDetail.dateTime}}</text>
+  </view>
+  <text class='title'>{{readingDetail.title}}</text>
+  <view class='tool'>
+    <view class='tool-img'>
+      <image wx:if='{{isCollect}}' src='/images/icon/collection.png' catchtap='onCollect'></image>
+      <image wx:else src='/images/icon/collection-anti.png' catchtap='onCollect'></image>
+      <image src='/images/icon/share.png' catchtap='onShare'></image>
+    </view>
+    <view class='hor'></view>
+  </view>
+  <text class='desc'>{{readingDetail.detail}}</text>
+</view>

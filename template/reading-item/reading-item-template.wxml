@@ -1,0 +1,17 @@
+<template name='reading-item'>
+  <view class='reading-container'>
+    <view class='reading-author-date'>
+      <image class='reading-author' src='{{authorImg}}'></image>
+      <text class='reading-date'>{{date}}</text>
+    </view>
+    <text class='reading-title'>{{title}}</text>
+    <image class='reading-image' src='{{img}}'></image>
+    <text class='reading-content'>{{content}}</text>
+    <view class='reading-like'>
+      <image class='reading-like-image' src='/images/icon/chat.png'></image>
+      <text class='reading-like-font'>{{collectNum}}</text>
+      <image class='reading-like-image' src='/images/icon/chat1.png'></image>
+      <text class='reading-like-font'>{{commentNum}}</text>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,15 @@
+/* pages/readingList/readingList.wxss */
+@import '/template/reading-item/reading-item-template.wxss';
+swiper{
+  width: 100%;
+  height: 600rpx;
+}
+
+swiper-item image{
+  width: 100%;
+  height: 600rpx;
+}
+
+page{
+  background-color: #ededed;
+}

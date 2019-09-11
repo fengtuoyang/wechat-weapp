@@ -1,0 +1,8 @@
+<!--pages/welcome/welcome.wxml-->
+<view class='comtainer'>
+  <image class='user-avatar' src='/images/avatar/2.png'></image>
+  <text class='user-name'>Hello，嘻嘻嘻</text>
+  <view class='moto-container' bindtap='openReading'>
+    <text class='moto'>开启小程序之旅</text>
+  </view>
+</view>
