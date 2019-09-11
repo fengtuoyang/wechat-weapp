@@ -12,8 +12,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.94",
-	"appid": "wx5ec6f4d8f093608f",
-	"projectname": "demo_ReaderAndMovie",
+	"appid": "开发者的appID",
+	"projectname": "wechat-weapp-douban-film",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
