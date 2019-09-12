@@ -15,9 +15,6 @@ Page({
     let category = options.category;
     let dataUrl = '';
     let categoryKey = '';
-    this.setData({
-      category: category
-    });
     switch (category) {
       case '正在热映':
         dataUrl = app.globalData.doubanBase + '/v2/movie/in_theaters';
@@ -33,6 +30,7 @@ Page({
         break;
     }
     this.setData({
+      category: category,
       categoryKey: categoryKey,
       requestUrl: dataUrl
     }, () => {

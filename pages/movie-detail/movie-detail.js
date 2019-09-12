@@ -45,6 +45,12 @@ Page({
     this.setData({
       movie: movie
     });
+
+    //设置navigationBar标题
+    wx.setNavigationBarTitle({
+      title: movie.title,
+    });
+
   },
 
   scanImg: function(event){
