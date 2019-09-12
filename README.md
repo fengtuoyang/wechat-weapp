@@ -8,11 +8,8 @@
     Top250：http://t.yushu.im/v2/movie/top250
     参数start=0&count=3
 
-![预览](https://github.com/fengtuoyang/wechat-weapp-douban-film/blob/master/images/preview/1.png)
-![预览](https://github.com/fengtuoyang/wechat-weapp-douban-film/blob/master/images/preview/2.png)
+/images/preview/  预览图片
+
 ![预览](https://github.com/fengtuoyang/wechat-weapp-douban-film/blob/master/images/preview/3.png)
-![预览](https://github.com/fengtuoyang/wechat-weapp-douban-film/blob/master/images/preview/4.png)
-![预览](https://github.com/fengtuoyang/wechat-weapp-douban-film/blob/master/images/preview/5.png)
-![预览](https://github.com/fengtuoyang/wechat-weapp-douban-film/blob/master/images/preview/6.png)
-![预览](https://github.com/fengtuoyang/wechat-weapp-douban-film/blob/master/images/preview/7.png)
 ![预览](https://github.com/fengtuoyang/wechat-weapp-douban-film/blob/master/images/preview/8.png)
+![预览](https://github.com/fengtuoyang/wechat-weapp-douban-film/blob/master/images/preview/4.png)
