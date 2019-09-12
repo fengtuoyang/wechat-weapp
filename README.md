@@ -10,6 +10,6 @@
 
 /images/preview/  预览图片
 
-![预览](https://github.com/fengtuoyang/wechat-weapp-douban-film/blob/master/images/preview/3.png)
-![预览](https://github.com/fengtuoyang/wechat-weapp-douban-film/blob/master/images/preview/8.png)
-![预览](https://github.com/fengtuoyang/wechat-weapp-douban-film/blob/master/images/preview/4.png)
+![预览](https://github.com/fengtuoyang/wechat-weapp/blob/master/images/preview/3.png)
+![预览](https://github.com/fengtuoyang/wechat-weapp/blob/master/images/preview/8.png)
+![预览](https://github.com/fengtuoyang/wechat-weapp/blob/master/images/preview/4.jpg)
