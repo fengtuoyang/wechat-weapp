@@ -1,33 +1,5 @@
 <!--pages/account/account.wxml-->
-<!-- <form bindsubmit='onFormSubmit' bindreset='onFormReset'>
-  <view>
-    <view>switch</view>
-    <switch name='switch' bindchange='onSwitch'></switch>
-  </view>
-  <view>
-    <view>slider</view>
-    <slider name='slider' value='30' bindchanging='onSlidering' bindchange='onSlider'></slider>
-  </view>
-  <view>
-    <view>radio</view>
-    <radio-group name='radio-group' bindchange='onRadio'>
-      <radio value='1' checked>1</radio>
-      <radio value='2'>2</radio>
-      <radio value='3'>3</radio>
-    </radio-group>
-  </view>
-  <view>
-    <view>checkbox</view>
-    <checkbox-group name='checkbox-group' bindchange='onCheckbox'>
-      <checkbox value='1'>1</checkbox>
-      <checkbox value='2' checked>2</checkbox>
-      <checkbox value='3'>3</checkbox>
-    </checkbox-group>
-  </view>
-  <view style='position: absolute; bottom: 0;width: 100%;'>
-    <button form-type='submit'>提交</button>
-    <button form-type='reset'>重置</button>
-  </view>
-</form> -->
+<button bindtap='getLocation'>{{myGeo}}</button>
+<button hidden='{{hideMap}}' bindtap='getDistance'>获取到天安门广场的距离</button>
 
- <map longitude='113.324520' latitude='23.099994' markers='{{markers}}' polyline='{{polyline}}' style='width: 100%; height: {{mapH}};'></map> 
+<map hidden='{{hideMap}}' longitude='{{myLocation.longitude}}' latitude='{{myLocation.latitude}}' markers='{{markers}}' polyline='{{polyline}}' style='width: 100%; height: {{mapH}};'></map>
